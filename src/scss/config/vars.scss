@@ -1,0 +1,23 @@
+@use 'sass:math';
+
+$title: #29282d;
+$def: #8d8d8d;
+
+%name {
+  font-family: 'name', sans-serif;
+  font-weight: 700;
+}
+
+%btn {
+}
+
+@function prc($pxOne, $pxTwo) {
+  $result: math.div($pxOne, $pxTwo) * 100%;
+  @return $result;
+}
+
+// !TO REM:
+@function rem($px) {
+  $result: math.div($px, 16) + rem;
+  @return $result;
+}

@@ -1,0 +1,13 @@
+@use 'sass:math';
+
+@import 'config/fonts';
+@import 'config/reset';
+@import 'config/vars';
+@import 'config/global';
+@import 'config/keyframes';
+@import 'config/mixins';
+
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'libs/swiper';
